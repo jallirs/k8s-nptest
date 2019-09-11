@@ -1,4 +1,4 @@
 #!/bin/bash
 set -ex
 echo "=> Building the binary"
-make
+make nptests
