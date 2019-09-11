@@ -3,7 +3,7 @@ MAINTAINER Mahmoud Azad <mrahbar.azad@google.com>
 
 # install binary and remove cache
 RUN apt-get update \
-    && apt-get install -y iperf3 curl wget net-tools gcc make \
+    && apt-get install -y iperf3 curl wget net-tools gcc make apt-utils \
     && rm -rf /var/lib/apt/lists/*
 RUN mkdir -p /tmp
 
