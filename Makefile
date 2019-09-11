@@ -1,5 +1,5 @@
 
-DOCKERREPO       := jallirs/netperf:1.1
+DOCKERREPO       := jallirs/iperf-mesh
 
 all: nptests container push
 
