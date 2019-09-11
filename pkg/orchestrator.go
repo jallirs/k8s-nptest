@@ -2,8 +2,8 @@ package pkg
 
 import (
 	"fmt"
-	"github.com/mrahbar/k8s-nptest/integration"
-	"github.com/mrahbar/k8s-nptest/types"
+	"github.com/jallirs/k8s-nptest/integration"
+	"github.com/jallirs/k8s-nptest/types"
 	"net"
 	"net/http"
 	"net/rpc"
