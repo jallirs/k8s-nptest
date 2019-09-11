@@ -1,5 +1,5 @@
 
-DOCKERREPO       := jallirs/iperf-mesh
+DOCKERREPO       := jallirs/k8s-nptest
 
 all: nptests container push
 
