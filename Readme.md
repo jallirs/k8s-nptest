@@ -1,8 +1,9 @@
 Based on: [kubernetes/perf-tests](https://github.com/kubernetes/perf-tests/blob/master/network/benchmarks/netperf)
+Also on: [here] (https://github.com/mrahbar/k8s-testsuite)
 
-Docker Image: [here](https://hub.docker.com/r/endianogino/netperf/)
+Docker Image: [here](https://hub.docker.com/r/jallirs/k8s-nptest)
 
-Helm chart: [here](https://github.com/mrahbar/k8s-testsuite)
+Helm chart: [here](https://github.com/jallirs/k8s-testsuite)
 # Benchmarking Kubernetes Networking Performance
 
 ## Objectives:
